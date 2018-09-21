@@ -1,0 +1,27 @@
+World
+	Generic
+	
+	Dark
+		Arachnid Lair
+		Reapers Rest
+		Sporatorium
+	Fire
+		Crystal Caverns
+		Lava Forge
+		Volcano
+	Earth
+		Dunes Jungle
+		Mountain
+		Swamp
+	Water
+		Dragon Lagoon
+		Sunken Ship
+		Waterfall
+	Wind
+		Storm Peaks
+		Bird Island
+		The Typhoon
+	Light
+		Castle
+		
+		

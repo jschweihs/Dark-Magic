@@ -1,0 +1,2 @@
+gainAmount = 10;
+

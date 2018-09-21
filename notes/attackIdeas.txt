@@ -1,0 +1,118 @@
+Basic Abilities
+	
+Run
+Duck
+Jump
+Attack (3x combo standing and in the air) //should the 3rd attack release a medium charged shot??
+BackDash
+	
+	
+Passive Abilities
+
+//it is feeling more and more that these abilities should be unlocked early on
+Double Jump - Double jump you idiot  I still don’t get it.
+Charge Blast - Hold attack down to begin charge. Can release full or half charge attack.
+Soul Steal - Finishing melee attack that will regain HP (and possibly other resources).  Auto executed if you are in melee range of an enemy and the hit is a killing blow.
+Forward Dash - Same thing as the back dash but...forwards. Uses Q/E
+
+
+Active Abilities - triangle
+	
+Shadow Form - Enter shadow form and move around in stealth, exit with a powerful attack.
+Magma Mucus - Create a ball of magma that the player can control.  Burns plant and ice obstacles.
+Terra Block - Shoot out a chunk of rock that turns into 2x2 tile block.  Using this skill again while the block is in air will cause it to land, doing
+damage and knocking	back enemies beneath it. The block remains on the ground and can be used to reach new areas until the skill is used again.
+Bubble - Places a bubble around the player that absorbs one (projectile only?) attack.  While active, the bubble alows the player to walk/run on water.
+Tornado Legs - Do I even need to explain?  No.
+
+
+Elemental Attack (sub weapon) - circle
+	
+Dark: The Vile Vial - Toss a vial that explodes on impact.
+	-hesitant to make this a special ability because the explosion is an easy way to add exploration
+Fire: Fire Columns - Shoot forward pillars of fire that burn through multiple enemies, leave DoT burn.
+	-hesitant to make this a special attack considering theres no vertical element
+	-instead, thinking you could hold down circle and fire continually flies out 
+Earth: Vine Whip - 5 vines whip out in a fan shape in front of the player.
+	-this idea will be legit if it was a 2 phase attack, vines go out, and the end of the vines
+		pop out some other attack, flowers blooming or w/e
+Water:	Jet Torpedo - homing projectile
+	-this is a good idea except instead of a torpedo, it should be a shark, something not technological
+Wind: Shuriken - Boomerang like ellipse motion.
+Light: Toggle on/off burst of light aoe from the player every .5 seconds
+
+
+
+Bosses
+
+DARK
+Daddy
+	Description: A giant spider.
+	Moveset:
+	Reward:
+Jaycke, Baron of Darkness
+	Description:
+	Moveset:
+	Reward: Shadow Form
+	
+FIRE
+Minotaur
+	Description:
+	Moveset:
+	Reward: Sigil of Fire
+Jarodd, Prince of Flames
+	Description:
+	Moveset:
+	Reward: Magma Mucus
+	
+EARTH
+Scorpinox
+	Description:
+	Moveset:
+	Reward: Sigil of land
+Gweyne, Master of Land 
+	Description:
+	Moveset:
+	Reward: Earth Block
+
+WATER
+Octopus
+	Description:
+	Moveset:
+	Reward: Sigil of Water
+Vyktoria, Lady of the Tides 
+	Description:
+	Moveset: 
+	Reward: Bubble
+
+WIND
+Griffin's Gryphon
+	Description:
+	Moveset:
+	Reward: Sigil of Wind
+Griffin, Conductor of the Winds
+	Description:
+	Moveset:
+	Reward: Tornado Legs
+
+LIGHT
+Sol, Monarch of Light
+	Description:
+	Moveset:
+		Life - 
+	Reward: Life
+God - superboss (optional)
+	Description:
+	Moveset:
+	Reward:
+
+
+
+Boss Order
+
+
+
+
+
+
+

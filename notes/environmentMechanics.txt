@@ -1,0 +1,47 @@
+World
+	Generic
+	-underwater
+	Dark
+		Generic
+			-Immune souls that move either linear or circular. (DKC bees)
+		Arachnid Lair
+			-Trampoline spider webs
+			-Spider webs that shrink the player
+		Reapers Rest
+			-Dragon Skull tunnels, can be open none, half, or full
+		Sporatorium
+			-
+	Fire
+		Generic
+		Crystal Caverns
+		Lava Forge
+			-
+		Volcano
+	Earth
+		Generic
+		Dunes Jungle
+		Mountain
+		Swamp
+	Water
+		Generic
+			-Floating pools of water
+			-magical mist
+		Dragon Lagoon
+			-surfable waves (with bubble)
+		Sunken Ship
+		Frozen Waterfall
+			-Ice floors (meltable?)
+			
+	Wind
+		Generic
+			-Wind Gusts (DKC and SMB2) horizontal movement increased in the air while wind is active.
+		Storm Peaks
+			-Lightning bolts that strike down
+		Bird Island
+		
+		The Typhoon
+			-Extreme winds: Player movement will be adjusted 
+	Light
+		Castle
+		
+		
