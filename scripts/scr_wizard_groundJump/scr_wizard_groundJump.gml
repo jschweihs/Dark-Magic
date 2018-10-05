@@ -1,3 +1,4 @@
+// Sets the initial jump state
 sprite_index = spr_wizard_jumpInit;
 jumpSpeed = jumpSpeedInit;
 doubleJumpTimer = 0;

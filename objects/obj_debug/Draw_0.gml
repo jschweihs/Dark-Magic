@@ -6,3 +6,4 @@ draw_text_transformed(__view_get( e__VW.XView, 0 )+16,__view_get( e__VW.YView, 0
 draw_text_transformed(__view_get( e__VW.XView, 0 )+16,__view_get( e__VW.YView, 0 )+60,string_hash_to_newline("jumpGrace: " + string(obj_player.jumpGrace)), .5, .5, 0);
 draw_text_transformed(__view_get( e__VW.XView, 0 )+16,__view_get( e__VW.YView, 0 )+68,string_hash_to_newline("landGrace: " + string(obj_player.landGrace)), .5, .5, 0);
 draw_text_transformed(__view_get( e__VW.XView, 0 )+16,__view_get( e__VW.YView, 0 )+76,string_hash_to_newline("fullSpeedTimer: " + string(obj_player.fullSpeedTimer)), .5, .5, 0);
+draw_text_transformed(__view_get( e__VW.XView, 0 )+16,__view_get( e__VW.YView, 0 )+88,string_hash_to_newline("imageIndex: " + string(obj_player.image_index)), .5, .5, 0);

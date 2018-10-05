@@ -2,7 +2,7 @@
     "option_gameguid": "{24F2793D-8368-40C2-995F-F72813A32622}",
     "option_steam_app_id": "0",
     "option_game_speed": 60,
-    "option_lastchanged": "09 June 2017 1:15:44"
+    "option_lastchanged": "04 October 2018 22:05:55"
 }←1225f6b0-ac20-43bd-a82e-be73fa0b6f4f|{
     "scaled": false,
     "targets": 461609314234257646

@@ -1,6 +1,4 @@
 /// @description Player Input
-// You can write your code in this editor
-
 
 if inputEnabled {
 	leftCheck = keyboard_check(leftKey);

@@ -24,13 +24,13 @@ draw_sprite_ext(spr_healthbarFrameEnd, image_index, __view_get( e__VW.XView, 0 )
 //set color to dark purple
 draw_set_color($331333);
 //draws background for mana, based on max mana
-draw_rectangle(__view_get( e__VW.XView, 0 )+X+2,__view_get( e__VW.YView, 0 )+16+14, __view_get( e__VW.XView, 0 )+X+obj_player.maxMana, __view_get( e__VW.YView, 0 )+Y+18, 0);
+draw_rectangle(__view_get( e__VW.XView, 0 )+X+2,__view_get( e__VW.YView, 0 )+Y+14, __view_get( e__VW.XView, 0 )+X+obj_player.maxMana, __view_get( e__VW.YView, 0 )+Y+18, 0);
 
 if(obj_player.mana > 0){
     //set main color to purple
     draw_set_color($632563);
     //draw mana bar, based on current mana
-    draw_rectangle(__view_get( e__VW.XView, 0 )+X+2,__view_get( e__VW.YView, 0 )+16+14, __view_get( e__VW.XView, 0 )+X+obj_player.mana, __view_get( e__VW.YView, 0 )+Y+18, 0);
+    draw_rectangle(__view_get( e__VW.XView, 0 )+X+2,__view_get( e__VW.YView, 0 )+Y+14, __view_get( e__VW.XView, 0 )+X+obj_player.mana, __view_get( e__VW.YView, 0 )+Y+18, 0);
 }
 //draws mana icon in front
 draw_sprite_ext(spr_manabarFrameFront, image_index, __view_get( e__VW.XView, 0 )+X, __view_get( e__VW.YView, 0 )+Y+14, 1, 1, 0, c_white, 1);

@@ -17,7 +17,7 @@ sprite_index = spr_wizard_stand;
 depth = 0;
 
 
-//damage
+// damage
 maxHealth = 60;
 health = maxHealth;
 isHit = false;
@@ -27,24 +27,24 @@ isInvincible = false;
 invincTimer = 0;
 invincTimerLimit = 60;
 
-//mana
+// mana
 maxMana = 60;
 mana = maxMana;
 manaRegenCounter = 0;
 manaRegenLimit = 20;
-isLoop = false;
-jumpCounter = 1;
+// isLoop = false;
+// jumpCounter = 1;
 
-//skill costs
+// skill costs
 blastCost = 2;
-doubleJumpCost = 4;
+doubleJumpCost = 20;
 
-//spell damages
+// spell damages
 blastDamage = 1;
 chargeBlastDamage = 2;
 fullChargeBlastDamage = 3;
 
-//idle
+// idle
 idleTimer = 0;
 idleTimerLimit = 100;
 idleImageSpeed = .1;
@@ -53,15 +53,15 @@ idleImageSpeed = .1;
 //walkSpeed = 1;          //walking rate, pixels per second
 //walkImageSpeed = .2;
 
-//running
+// running
 runImageSpeed = .2;
 runSpeedMAX = 2;
 runSpeed = runSpeedMAX;
 walkSpeed = runSpeed/2;
 fullSpeedTimer = 0;
-fullSpeedTimerMAX = 8;
+fullSpeedTimerMAX = 6;
 
-//sliding 
+// sliding 
 isSliding = false;
 slideDecel = .2;
 slideSpeed = runSpeed;
@@ -69,9 +69,9 @@ rss = slideSpeed;       //rounding var
 slideEnableTimer = 0;
 slideEnableTimerMAX = 16;
 
-//jump 
+// jump 
 isInitJump = false;
-isGrounded = false;
+isGrounded = true;
 jumpSpeedH = 0;         //double between -2 and 2 (run velocity)
 jsh = jumpSpeedH;       //rounding var
 jumpMoveH = .1;
@@ -91,37 +91,37 @@ isCeilGrace = false;
 ceilGrace = 0;
 ceilGraceMAX = 3;
 
-//doublejump
+// doublejump
 doubleJumpTimer = 0;
 doubleJumpTimeLimit = 20;
 doubleJump = true;
 doubleJumpAnim = false;
 
-//landing
+// landing
 isLanding = false;
 
-//duck 
+// duck 
 isDucked = false;
 duckTimer = 0;
 duckTimerLimit = 9;
 duckReleaseTimer = 0;
 duckReleaseLimit = 60;
 
-//attack
+// attack
 attackDelayLimit = 8;
 attackDelayTimer = attackDelayLimit; //attack is available by default
 isAttacking = false;
 
-
-//standing attack
+  
+// standing attack
 enterSecondAttack = false;
 enterThirdAttack = false;
 
-//running attack
+// running attack
 startRunFrame = 0;
 currRunFrame = 0;
 
-//backdash
+// backdash
 isBackDash = false;
 backDashSpeedMAX = 4;
 backDashDecel = .33;
@@ -129,7 +129,7 @@ backDashSpeed = backDashSpeedMAX;
 backDashTimer = 0;
 backDashTimerLimit = 24;
 
-//charge attack
+// charge attack
 isCharging = false;
 isFullyCharged = false;
 chargeStartTimer = 0;
@@ -138,21 +138,21 @@ chargeTimer = 0;
 chargeTimerLimit = 120;
 chargingFX = noone;
 
-//unlockables
+// unlockables
 unlockDoubleJump = false;
 
-//elementalVars
+// elementalVars
 element = "dark";
 isChangingElement = false;
 elementChangeAlpha = 0;
 elementChangeAlphaDecay = .05;
 
-//testing vars
+// testing vars
 isFloating = false;
 isCollideUp = false;
 
 
-//camera
+// camera
 camOffset = 30;
 viewWidth = 320
 viewHeight = 180
